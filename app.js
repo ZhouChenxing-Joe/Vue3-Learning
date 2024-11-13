@@ -6,14 +6,26 @@ const app = Vue.createApp({
 
    data() {
       return {
+        showBooks: true,  
         title: 'This ME',
         author: 'Zhou Joe',
         age: '19',
       }
 
+   },
+   methods: {
+    
+     toggleShowBooks(){
+        this.showBooks = false;
+     },
+
+     changeTitle(title){
+        // this.title = 'This HIM'
+        this.title = title
+     }
    }
 
-})
+});
 
 
 app.mount('#app')
