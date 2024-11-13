@@ -8,7 +8,7 @@ const app = Vue.createApp({
       return {
         title: 'This ME',
         author: 'Zhou Joe',
-        AGE: '19',
+        age: '19',
       }
 
    }
